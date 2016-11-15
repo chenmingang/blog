@@ -1,5 +1,52 @@
 INFO  Start processing
-INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+ERROR Process failed: _posts/字符串编辑距离与动态规划.md
+YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1:
+    
+    ^
+    at generateError (/apps/blog/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:162:10)
+    at throwError (/apps/blog/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:168:9)
+    at readBlockMapping (/apps/blog/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1040:9)
+    at composeNode (/apps/blog/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1326:12)
+    at readDocument (/apps/blog/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1488:3)
+    at loadDocuments (/apps/blog/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1544:5)
+    at Object.load (/apps/blog/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1561:19)
+    at parseYAML (/apps/blog/node_modules/hexo/node_modules/hexo-front-matter/lib/front_matter.js:80:21)
+    at parse (/apps/blog/node_modules/hexo/node_modules/hexo-front-matter/lib/front_matter.js:56:12)
+    at /apps/blog/node_modules/hexo/lib/plugins/processor/post.js:52:18
+    at tryCatcher (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:507:35)
+    at Promise._settlePromise (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:636:18)
+    at PromiseArray._resolve (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise_array.js:125:19)
+    at PromiseArray._promiseFulfilled (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise_array.js:143:14)
+    at PromiseArray._iterate (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise_array.js:113:31)
+    at PromiseArray.init [as _init] (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise_array.js:77:10)
+    at Promise._settlePromise (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:564:21)
+    at Promise._settlePromise0 (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:636:18)
+    at PromiseArray._resolve (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise_array.js:125:19)
+    at PromiseArray._promiseFulfilled (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise_array.js:143:14)
+    at Promise._settlePromise (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:572:26)
+    at Promise._settlePromise0 (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/apps/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:636:18)
+    at /apps/blog/node_modules/hexo/node_modules/bluebird/js/release/nodeback.js:42:21
+    at /apps/blog/node_modules/hexo/node_modules/hexo-fs/node_modules/graceful-fs/graceful-fs.js:78:16
+    at fs.js:272:14
+    at /apps/blog/node_modules/hexo/node_modules/nunjucks/node_modules/chokidar/node_modules/readdirp/node_modules/graceful-fs/graceful-fs.js:43:10
+    at /apps/blog/node_modules/hexo/node_modules/hexo-fs/node_modules/graceful-fs/graceful-fs.js:43:10
+    at /apps/blog/node_modules/hexo/node_modules/warehouse/node_modules/graceful-fs/graceful-fs.js:43:10
+    at /usr/lib/node_modules/hexo-cli/node_modules/hexo-fs/node_modules/graceful-fs/graceful-fs.js:43:10
+    at Object.oncomplete (fs.js:108:15)
 ERROR Process failed: _posts/自动化营销系统.md
 YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1:
     
@@ -48,3 +95,4 @@ YAMLException: can not read a block mapping entry; a multiline key may not be an
     at /apps/blog/node_modules/hexo/node_modules/warehouse/node_modules/graceful-fs/graceful-fs.js:43:10
     at /usr/lib/node_modules/hexo-cli/node_modules/hexo-fs/node_modules/graceful-fs/graceful-fs.js:43:10
     at Object.oncomplete (fs.js:108:15)
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
