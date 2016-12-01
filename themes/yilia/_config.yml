@@ -2,14 +2,15 @@
 
 menu:
   主页: /
+  兴趣: /tags/兴趣/
   随笔: /tags/随笔/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/chenmingang"
+  #weibo: "#"
+  #rss: "#"
+  #zhihu: "#"
   #douban: "#"
   #mail: "#"
   #facebook: "#"
